@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+        /*div{
+        	width: 100px;
+        	height:100px;
+        	background-color: pink;
+        	display: inline;把快级元素转换为行内元素
+        }
+        span{
+        	width: 100px;
+        	height: 100px;
+        	background-color: green;
+        	display: block;吧航内元素转换为块级元素
+        }
+        a{
+        	width: 100px;
+        	height: 100px;
+        	background-color: red;
+        	display: block;吧航内元素转换为行内块级元素
+        }*/
+        div{
+        	height: 100px;
+        	width: 100px;
+        	background-color:red;
+        }
+        span{
+        	width: 190px;
+        	height: 190px;
+        	background-color: green;
+        	display: block;
+        }
+        a{
+        	width: 90px;
+        	height: 70px;
+        	background-color: blue;
+        	display:inline-block;
+        }
+        a:hover{
+              background-color:orange;
+        }
+    </style>
+</head>
+<body>
+	<!-- <div>显示模式</div>
+	<span>转换为块级元素</span>
+	<a href="#">a为行内元素转化为航内快元素</a> -->
+	<div>块级元素</div>
+	<div>块级元素</div>
+	<div>块级元素</div>
+	<span>转换成块级元素改变高度和宽度</span>
+	<span>转换成块级元素改变高度和宽度</span>
+	<span>转换成块级元素改变高度和宽度</span>
+	<a href="#">百度</a>
+	<a href="#">百度</a>
+	<a href="#">百度</a>
+</body>
+</html>
